@@ -21,6 +21,8 @@ public class MProyecto {
         for (int i = 0; i < numero.length; i++){
             numero[i]=5;
         }
+        for (int i = 0; i < numero.length; i++)
+            System.out.println(numero[i]);
     }
     
 }
