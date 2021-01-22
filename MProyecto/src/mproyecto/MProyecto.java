@@ -16,11 +16,9 @@ public class MProyecto {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int numero[] = new int [10];
+        int numero[] = {5,6,7,8,9,10};
         System.out.println("Probando github");
-        for (int i = 0; i < numero.length; i++){
-            numero[i]=5;
-        }
+        
         for (int i = 0; i < numero.length; i++)
             System.out.println(numero[i]*numero[i]);
     }
